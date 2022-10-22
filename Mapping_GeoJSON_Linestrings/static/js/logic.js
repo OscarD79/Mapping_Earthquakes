@@ -43,6 +43,7 @@ let torontoData = "https://raw.githubusercontent.com/OscarD79/Mapping_Earthquake
 // Grabbing our GeoJSON data.
 d3.json(torontoData).then(function(data) {
   console.log(data);
+  // Creating a GeoJSON layer with the retrieved data.
 
 // Create a style for the lines.
 let myStyle = {
